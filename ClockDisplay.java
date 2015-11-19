@@ -51,6 +51,16 @@ public class ClockDisplay
      */
     public String getTime()
     {
+        String periodo = " am";
+        String hora = horas.getDisplayValue();
+        if (horas.getValue() > 12) {
+        periodo = " pm";
+        hora = horas.getValue() - 12 + "";
+         }
+        if (horas.getValue() == 00) {
+            hora = 12 + "";
+        }
+        tiempo = hora + ":" + minutos.getDisplayValue() + periodo;
         
         
         return tiempo;
