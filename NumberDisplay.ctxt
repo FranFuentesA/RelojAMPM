@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=limSup
+comment0.target=NumberDisplay(int)
+comment0.text=\r\n\ se\ crea\ un\ valor\r\n\ se\ lke\ asigna\ un\ limite\ al\ valor\r\n\ \r\n
+comment1.params=val
+comment1.target=void\ setValue(int)
+comment1.text=\r\n\ metodo\ que\ fija\ valores\ como\ parametros.\ \ \r\n
+comment2.params=
+comment2.target=java.lang.String\ getDisplayValue()
+comment2.text=\r\nmetodo\ que\ devuelve\ en\ cadena\ de\ 2\ caracteres.\r\n
+comment3.params=
+comment3.target=int\ getValue()
+comment3.text=\r\n\ metodo\ que\ devuelve\ el\ valor\ actual\r\n
+comment4.params=
+comment4.target=void\ increment()
+comment4.text=\r\n\ metodo\ que\ incrementa\ en\ uno\ y\ lo\ hace\ retornar\r\n
+numComments=5
